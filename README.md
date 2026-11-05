@@ -1,68 +1,35 @@
-<div align="center">
+# Circuitos digitales y displays en Proteus
 
-# 🔌 Digital Logic & Hardware Simulation Project 1 (ORGA)
+Entrega de Organización Computacional con diseños de lógica digital y visualización en displays de ánodo y cátodo común. Incluye mapas de Karnaugh y presupuesto del montaje.
 
-**Diseño de circuitos lógicos, simulación digital y control de microprocesadores para Organización Computacional.**
+## Requisitos
 
-[![Language](https://img.shields.io/badge/Language-C++,%20Arduino-blue?style=for-the-badge)](https://github.com/Ennero/P1_ORGA_G3)
-[![Course](https://img.shields.io/badge/Course-Organización%20Computacional-003366?style=for-the-badge)](https://ingenieria.usac.edu.gt/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+Proteus con los componentes utilizados por los diseños. Consultar informe.txt y los archivos del proyecto para la versión y el montaje de la entrega original.
 
-</div>
+## Ejecución
 
----
+Los comandos parten de la raíz del repositorio, salvo donde se indica otra terminal.
 
-
-## 📌 Descripción General
-
-Este repositorio contiene la implementación y entrega de **🔌 Digital Logic & Hardware Simulation Project 1 (ORGA)**, desarrollado en el curso de **Organización Computacional** en la Universidad de San Carlos de Guatemala.
-
-- **Objetivo:** Diseño de circuitos lógicos, simulación digital y control de microprocesadores para Organización Computacional.
-- **Stack Principal:** `C++, Arduino`.
-- **Área:** Ciencias de la Computación, Algoritmos y Desarrollo de Software.
-
----
-
-## 🚀 Características y Componentes
-
-- Implementación modular y buenas prácticas de codificación.
-- Manejo estructurado de datos, control de flujo y validaciones.
-- Documentación y scripts de soporte para compilación o ejecución.
-
----
-
-## 📦 Estructura del Proyecto
-
-```
-P1_ORGA_G3/
-├── src/ o archivos de código fuente
-├── docs/ (si aplica)
-├── .gitignore
-├── LICENSE
-└── README.md
+```bash
+# En Proteus, abrir el diseño principal:
+# P1_ORGA_G3.pdsprj
+# Diseños separados: Anodo Comun/ y Catodo Común/
 ```
 
----
+## Recorrido de demostración
 
-## ⚙️ Requisitos y Ejecución
+Abrir el diseño principal, iniciar la simulación y variar las entradas. Comparar las salidas del display con las tablas/mapas de mapas_de_karnaugh.xlsx. El archivo Video.txt contiene la referencia de demostración original.
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Ennero/P1_ORGA_G3.git
-   cd P1_ORGA_G3
-   ```
-2. Ejecutar según el entorno (`C++, Arduino`):
-   - Consultar los scripts o archivos principales del proyecto para parámetros específicos.
+## Organización
 
----
+Carpetas de la entrega: [`Anodo Comun/`](Anodo%20Comun/), [`Catodo Común/`](Catodo%20Com%C3%BAn/).
 
-## 📄 Licencia
+## Alcance y límites
 
-Este proyecto está bajo la Licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Los archivos .pdsprj son diseños para Proteus; no se ejecutan con un compilador de lenguaje general. El presupuesto refleja la entrega original y no representa precios actuales.
 
----
+## Contexto y licencia
 
-## 👨‍💻 Autor
+Trabajo académico o de aprendizaje conservado en el portafolio de [Enner Mendizabal](https://github.com/Ennero). Los créditos de los trabajos en grupo se conservan en sus entregas y manuales.
 
-- **Enner Mendizabal** - [@Ennero](https://github.com/Ennero)  
-- *Facultad de Ingeniería, Universidad de San Carlos de Guatemala.*
+Consultar [LICENSE](LICENSE) para la licencia de la raíz. Las dependencias y los componentes con avisos o licencias propios conservan sus condiciones.
